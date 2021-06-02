@@ -1,8 +1,9 @@
 UI Automation - WebDriverIO with Cucumber
 =================
 
-This is an UI Automation Tests project of testing purchase workflow against www.saucedemo.com  
+This is an UI Automation Tests project of testing purchase workflow against http://automationpractice.com  
 These tests are developed in JS with [WebDriverIO](http://webdriver.io/) and [Cucumber](https://cucumber.io/)  
+This is a little demo project, to run NodeJS, using Cucumber.js as a behaviour testing suite, for automated browser tests. It gives you a base foundation to set up running BDD tests in any environment that has Node.JS and Selenium2-Server-Standalone WebDriver.
 
 Requirements
 ---------------
@@ -38,6 +39,11 @@ docker build -t test_image -f Dockerfile .
 docker run -it --rm --name test-container test_image
 ```
 
+
+How to write a test
+---------------
+Tests are written in Gherkin syntax that means that you write down what's supposed to happen in a real language. All test files are located in ./src/features/* and have the file ending .feature. You will already find some test files in that directory.
+
 Reports
 ---------------
 
@@ -53,11 +59,3 @@ To open the allure report on the browser:
 npm run report:open
 ```
 
-Eslint 
----------------
-
-Run format lint:
-
-```bash
-npm run code:lint
-```
