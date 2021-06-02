@@ -1,0 +1,14 @@
+{
+  "default": {
+    "runner": "local",
+    "hostname": "localhost",
+    "port": 4444,
+    "path": "/wd/hub"
+  },
+  "remote": {
+    "runner": "remote",
+    "hostname": "remote_hostname_or_ip_address",
+    "port": 1234,
+    "path": "/wd/hub"
+  }
+}
