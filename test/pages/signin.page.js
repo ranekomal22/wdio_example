@@ -10,8 +10,7 @@ class SigninPage {
 
     // BDD Functions
     open() {
-        browser.url('http://automationpractice.com');
-        
+        browser.url('/');
     }
 
     signinpage() {

@@ -10,7 +10,7 @@ exports.config = {
     path: profiles[server].path,
 
     // Configure base url
-    baseUrl: 'https://www.saucedemo.com',
+    baseUrl: 'http://automationpractice.com',
 
     // Choose feature files to execute
     specs: ['./test/features/*.feature'],
